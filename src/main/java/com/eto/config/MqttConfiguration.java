@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.integration.mqtt.core.DefaultMqttPahoClientFactory;
 import org.springframework.integration.mqtt.core.MqttPahoClientFactory;
 
+import javax.annotation.Resource;
+
 
 /**
  * 用于创建和管理 MQTT 客户端的连接工厂
@@ -17,7 +19,7 @@ import org.springframework.integration.mqtt.core.MqttPahoClientFactory;
 @Configuration
 public class MqttConfiguration {
 
-    @Autowired
+    @Resource
     private MqttConfigurationProperties mqttConfigurationProperties ;
 
     @Bean

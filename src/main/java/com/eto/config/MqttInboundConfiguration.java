@@ -14,6 +14,8 @@ import org.springframework.integration.mqtt.support.DefaultPahoMessageConverter;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHandler;
 
+import javax.annotation.Resource;
+
 
 /**
  * 处理从服务器传来的消息
@@ -21,10 +23,10 @@ import org.springframework.messaging.MessageHandler;
 @Configuration
 public class MqttInboundConfiguration {
 
-    @Autowired
+    @Resource
     private MqttConfigurationProperties mqttConfigurationProperties ;
 
-    @Autowired
+    @Resource
     private ReceiverMessageHandler receiverMessageHandler;
 
 

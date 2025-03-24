@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
 /**
- * @Description
+ * @Description 消息发送服务
  * @Author
  * @Create 8:54
  */
