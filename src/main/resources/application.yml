@@ -1,0 +1,8 @@
+spring:
+  mqtt:
+    username: admin
+    password: a914397698
+    url: tcp://192.168.136.130:1883
+    subClientId: sub_client_id_123
+    subTopic: autel/iot/lamp/line
+    pubClientId: pub_client_id_123
