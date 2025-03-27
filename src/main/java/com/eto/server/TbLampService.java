@@ -10,4 +10,5 @@ import com.eto.domain.TbLamp;
 */
 public interface TbLampService extends IService<TbLamp> {
 
+    void updateLampOnlineStatus(String jsonInfo);
 }

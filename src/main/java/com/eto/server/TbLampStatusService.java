@@ -10,4 +10,6 @@ import com.eto.domain.TbLampStatus;
 */
 public interface TbLampStatusService extends IService<TbLampStatus> {
 
+
+    void saveDeviceStatus(String json);
 }
